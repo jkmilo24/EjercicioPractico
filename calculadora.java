@@ -4,27 +4,22 @@ public class calculadora {
     public static void main(String[] args) {
         Scanner jc = new Scanner(System.in);
 
-        // Mostrar el menú de operaciones
         System.out.println("Operacion a realizar:");
         System.out.println("1. Sumar");
         System.out.println("2. Restar");
         System.out.println("3. Multiplicar");
         System.out.println("4. Dividir");
-
-        // Solicitar al usuario que elija una operación
+      
         System.out.print("Seleccione una operación (1/2/3/4): ");
         int operacion = jc.nextInt();
-
-        // Solicitar los números
+      
         System.out.print("Ingrese el primer número: ");
         int num1 = jc.nextInt();
         System.out.print("Ingrese el segundo número: ");
         int num2 = jc.nextInt();
-
-        // Variable para almacenar el resultado
+    
         int resultado;
 
-        // Estructura de control switch-case para las operaciones
         switch (operacion) {
             case 1:
                 resultado = num1 + num2;
