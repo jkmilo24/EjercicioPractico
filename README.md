@@ -5,47 +5,47 @@
 
 El lenguaje JAVA tiene como base una serie de tipos de datos primitivos, los cuales son:
 
-byte
+## byte
 
 Representa un tipo de dato de 8 bits con signo. De tal manera que puede almacenar los valores numéricos de -128 a 127 (ambos inclusive).
 
-short
+## short
 
 Representa un tipo de dato de 16 bits con signo. De esta manera almacena valores numéricos de -32.768 a 32.767.
 
-int
+## int
 
 Es un tipo de dato de 32 bits con signo para almacenar valores numéricos. Cuyo valor mínimo es -231 y el valor máximo 231-1.
 
-long
+## long
 
 Es un tipo de dato de 64 bits con signo que almacena valores numéricos entre -263 a 263-1.
 
-float
+## float
 
 Es un tipo dato para almacenar números en coma flotante con precisión simple de 32 bits.
 
-double
+## double
 
 Es un tipo de dato para almacenar números en coma flotante con doble precisión de 64 bits.
 
-boolean
+## boolean
 
 Sirve para definir tipos de datos booleanos. Es decir, aquellos que tienen un valor de true o false. Ocupa 1 bit de información.
 
-char
+## char
 
 Es un tipo de datos que representa a un carácter Unicode sencillo de 16 bits.
 
 #  2. ¿Cómo funcionan las estructuras de control de flujo como if, else, switch y bucles en Java?
 
-If/Else/Else If
+## If/Else/Else If
 
 La declaración if se utiliza para ejecutar un bloque de código solo si se cumple una condición especificada. Si la condición es TRUE, el código dentro del bloque if se ejecuta; de lo contrario, se omite. La declaración else if se puede utilizar para especificar una nueva condición si la anterior fue FALSE.
 
 Cuando se puede usar if; cuando se tiene única condición para verificar, también cuando se tiene múltiples condiciones que deben verificarse secuencialmente.
 
-Switch
+## Switch
 
 La proposición Switch es una sentencia de alternativa múltiple, pero únicamente con comparaciones de igualdad.
 
@@ -58,20 +58,21 @@ Un ejemplo es:
   
 }
 
-Bucles
+## Bucles
 
-FOR
+## FOR
+
 El bucle for es ideal para iterar sobre una secuencia de valores. Se utiliza cuando se conoce de antemano cuantas veces se necesita dar.
 
 Cuando usar for: Cuando se conoce el numero exacto de iteraciones, también para iterar sobre arrays y colecciones.
 
-WHILE
+## WHILE
 
 El bucle while se utiliza para repetir un bloque de código mientras se cumple una condición. Se verifica la condición antes de cada iteración.
 
 Cuando usar while: cuando no se conoce el numero exacto de iteraciones y se debe iterar hasta que se cumpla una condición.
 
-DO-WHILE
+## DO-WHILE
 
 El bucle do-while es similar al bluce while, pero este verifica la condición de cada iteración. Esto garantiza que el bloque de código se ejecuta al menos una vez.
 
