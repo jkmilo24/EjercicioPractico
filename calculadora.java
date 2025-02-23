@@ -34,7 +34,7 @@ public class calculadora {
                 System.out.println("Resultado: " + resultado);
                 break;
             case 4:
-                // Verificar si el segundo número es cero para evitar la división por cero
+        
                 if (num2 != 0) {
                     resultado = num1 / num2;
                     System.out.println("Resultado: " + resultado);
