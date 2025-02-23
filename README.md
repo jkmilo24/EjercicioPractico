@@ -118,8 +118,11 @@ Los modificadores de acceso en Java son palabras clave que controlan la visibili
 Los modificadores mas comunes en JAVA son:
 
 •	Public.
+
 •	Private.
+
 •	Protected.
+
 •	Default.
 
 # 8. ¿Qué es una variable de entorno y por qué son importantes para Java o la programación en general?
